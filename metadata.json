@@ -1,0 +1,5 @@
+{
+  "name": "Wari",
+  "description": "A bill-splitting application for group stays where expenses are shared among families and individuals with different cost ratios based on roles.",
+  "requestFramePermissions": []
+}
