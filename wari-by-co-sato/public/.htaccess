@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /wari-by-co-sato/
+RewriteRule ^api/ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
